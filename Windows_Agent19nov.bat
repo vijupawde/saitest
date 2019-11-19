@@ -2,8 +2,8 @@ ECHO =================================================
 ECHO ThreatAnalytics Agent Installation started 
 ECHO =================================================
 
-SET /P _inputname= Please enter an Downloading path for Interceptor-Agent Packages :
-SET /P manager_IP= Please enter an Interceptor Manager-ip adddress :
+SET /P _inputname= Please enter an Downloading path for Interceptor-Agent Packages :%1
+SET /P manager_IP= Please enter an Interceptor Manager-ip adddress :%2
 
 cd "%_inputname%"
 
